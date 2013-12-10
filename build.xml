@@ -138,12 +138,12 @@
 		</copy>
 	</target>
 
-	<target name="compile">
+	<!--<target name="compile">
 		<javac srcdir="${src.dir}" destdir="${testdir}" verbose="${full-compile}">
 			<classpath refid="classpath.test" />
 			<classpath refid="classpath.base" />
 		</javac>
-	</target>
+	</target>-->
 
 
 	<target name="compile-test">
